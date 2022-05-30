@@ -1,5 +1,11 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "angular-shell": "apps/angular-shell",
+    "angular-shell-e2e": "apps/angular-shell-e2e",
+    "models": "libs/models",
+    "react-app": "apps/react-app",
+    "react-app-e2e": "apps/react-app-e2e"
+  }
 }
